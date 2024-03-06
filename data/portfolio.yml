@@ -1,0 +1,55 @@
+portfolioitems:
+  # portfolio category
+  - title: Web Development Projects
+    portfolioitem:
+      - name: Let's Think about Lantau Link
+        image: '/images/portfolio/think-lantau-link-viewing-platform.png'
+        link: https://www.thinkllvp.com/
+        linktext: 'Visit campaign website'
+        description: |
+          Let''s Think about Lantau Link is a campaign for the revitalization of Lantau Link Viewing Platform (LLVP) public engagement program.\
+          The website provides information about the campaign, collects proposals from the general public, and holds the voting event using a customized backend.\
+          A minigame is included to invite the public to interact, create, and share concept viewing platform designs.
+        tags:
+          - campaign
+          - customized_system
+        # status: 'Finished'
+        start: '2023'
+        # end: '2021'
+        # authors:
+        #   - lxndrblz
+        #   - alexanderdavide
+      - name: Lift Up Kowloon East
+        image: '/images/portfolio/lift-up-kowloon-east.png'
+        link: https://www.liftupkowlooneast.com/
+        description: |
+          "Lift Up Kowloon East" is the winning entry to the "City Dress-up Design Competition - Flyover Fantasy Re-Run" competition, and is now the theme for the giant murals designs for the columns under the Kwun Tong Bypass.\
+          The website communiates the murals' design concepts to the public, and a set of 30 AR filters were developed to enhance engagement and create an interactive experience for the visitors.
+        start: '2022'
+        tags:
+          - arfilter
+      - name: Macau Design Biennial
+        image: '/images/portfolio/macau-design-biennial.jpg'
+        start: '2018'
+        description: |
+          Macau Design Biennial is the international integrated design competition in Macau.\
+          The elegantly designed website serves to promote the event, and act as the portal to coordinate the competition's process, from receiving submissions from the participants, to judges casting their votes, to generating shipping labels to the shortlisted entrants.\
+          The website also won the Webby Awards in 2018 in Websites and Mobile Sites Associations cateogry.
+        tags:
+          - customized_system
+      - name: Shiseido Find Your Light
+        start: '2017'
+        description: |
+          Find Your Light was a marketing campaign by Shiseido to promote their brand awareness.\
+          The work consisted of a website and a tailor-made kiosk application, both which takes a photo of the user and process it into a short video overlaid with falling cherry blossom leaves. The backend leveraged MQ to distribute the video rendering workload across a fleet of VPS to achieve scalability.
+        tags:
+          - campaign
+          - customized_system
+      - name: Sony Bravia Z9D Marketing Campaign
+        start: '2016'
+        description: |
+          This is an interactive installation designed for Sony's promotion campaign for promoting their Bravia Z9D Series TV in Harbour City, Hong Kong.\
+          The installation consisted of a tablet from which the audience could create a customized neon light artwork, each artwork is then animated on the fly on the tablet, and ultimately sent to display on the main Sony Z9D TV.
+        tags:
+          - campaign
+          - installation

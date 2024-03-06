@@ -1,0 +1,51 @@
+baseURL = 'https://lerico.net/'
+languageCode = 'en-hk'
+title = 'Hello'
+theme = 'anatole'
+
+[params]
+title = "Eric Wong"
+author = "Eric Wong"
+description = """
+Full Stack Developer, Automation, Cybersecurity.
+"""
+profilePicture = "images/profile.jpg"
+doNotLoadAnimations = true
+reversepagetitle = true
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/eric-kf-wong/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:eric@lerico.net"
+
+[[menu.main]]
+name = "Home"
+identifier = "home"
+weight = 100
+url = "/"
+
+[[menu.main]]
+name = "Posts"
+weight = 200
+identifier = "post"
+url = "/post/"
+
+[[menu.main]]
+name = "Portfolio"
+weight = 300
+identifier = "portfolio"
+url = "/portfolio/"
+
+[[menu.main]]
+name = "About"
+weight = 400
+identifier = "about"
+url = "/about/"
+
+[permalinks.page]
+post = "/post/:title"
