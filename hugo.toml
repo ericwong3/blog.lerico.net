@@ -12,6 +12,7 @@ Full Stack Developer, Automation, Cybersecurity.
 profilePicture = "images/profile.jpg"
 doNotLoadAnimations = true
 reversepagetitle = true
+displayMode = "dark"
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
