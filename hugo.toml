@@ -13,6 +13,7 @@ profilePicture = "images/profile.jpg"
 doNotLoadAnimations = true
 reversepagetitle = true
 displayMode = "dark"
+contentratio = 0.64
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
@@ -37,10 +38,10 @@ identifier = "posts"
 url = "/posts/"
 
 [[menu.main]]
-name = "Portfolio"
+name = "Projects"
 weight = 300
-identifier = "portfolio"
-url = "/portfolio/"
+identifier = "projects"
+url = "/projects/"
 
 [[menu.main]]
 name = "About"
@@ -50,3 +51,4 @@ url = "/about/"
 
 [permalinks.page]
 posts = "/posts/:title"
+projects = "/projects/:title"
